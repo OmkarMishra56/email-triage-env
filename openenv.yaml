@@ -1,0 +1,11 @@
+name: email-triage
+version: 1.0.0
+description: Email classification for customer support
+tasks:
+  - name: easy
+    description: Classify spam/work/support emails
+action_space:
+  - classify
+observation_space:
+  - inbox
+reward_range: [-1, 1]
